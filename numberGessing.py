@@ -28,7 +28,10 @@ while True:
         break
     
     else:
-        print("You got it wrong!")
+        if user_guess > random_number:
+            print("You were above the number!")
+        else:
+            print("You were bellow the number!")
 
    
               
